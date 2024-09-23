@@ -1,0 +1,44 @@
+#dados {
+    background-color:grey;
+    height: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#rosto {
+    border-style: solid;
+    border-radius: 10ch;
+    width: 100px;
+    height: 100px;
+}
+
+#sobre {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#sobre a{
+    text-decoration: none;
+    color:yellow;
+}
+
+#linkIn {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rosto2 {
+    display: inline-block;
+    text-align: right;
+}
+
+#conteudo{
+   background-color: grey;
+   padding-left:10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
