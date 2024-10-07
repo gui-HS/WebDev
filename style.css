@@ -1,8 +1,18 @@
+
+body{
+    margin: auto;
+}
+
 #dados {
     background-color:grey;
     height: 175px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+dl{
+    padding-top: 5px;
+    margin: 1px;
 }
 
 #rosto {
@@ -42,3 +52,16 @@ dt {
     font-weight: bold;
 }
 
+#bar{
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+}
+
+.bar{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline;
+}
