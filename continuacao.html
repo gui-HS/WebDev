@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Head e tabela</title>
+    <meta charset = "utf-8">
+    <link href="style.css" rel="stylesheet"">
+    <meta name="keywords" content = "Head, html, form">
+    <meta name="description" content="Exercicio sobre head e form">
+    <meta name="author" content="Guilherme Santos">
+    <script src="jquery.js"></script>
+    <script>
+        function foo() {
+            alert("Envio concluído!");
+        }
+    </script>
+    <style>
+        h1{
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="bar">
+        <a href="main.html" class="bar">voltar</a>
+    </div>
+    
+    <div id="formularios">
+        <caption>
+            Teste de diversos tipos de input:
+        </caption>
+        <fieldset>
+        
+        <h1>Formulário poggers</h1>
+        <form action="" method="get">
+            <label>Nome:</label>
+                <input type="text" Digite seu nome="doas" name="userName"><br>
+            <label>Idade:</label>
+                <input type="number" name="idade"><br> 
+            <label>Senha:</label>
+                <input type="password" name="senha" required><br>
+            <label>Data de Nascimento:</label>
+                <input type="date" name="dataNascimento"><br>
+            <label>Como está seu volume?</label>
+                <input type="range" name="usrSobre">
+
+            <ol type="B">
+                <li><label>Arroz e feijão</label>
+                    <input type="radio" name="arroz-feijao"></li>
+                <li><label>Purê e carne moída</label>
+                    <input type="radio" name="arroz-feijao"></li>
+                <li><label>Strogonoff e batata palha</label>
+                    <input type="radio" name="arroz-feijao"></li>
+
+            </ol>
+
+            <ul type="square">
+                <li><label>Banana</label>
+                    <input type="checkbox" name="Banana"></li>
+                <li><label>Maçã</label>
+                    <input type="checkbox" name="Banana"></li>
+                <li><label>Pêra</label>
+                    <input type="checkbox" name="Banana"></li>
+                <li><label>Uva</label>
+                    <input type="checkbox" name="Banana"></li>
+            </ul>
+
+            <label>Escolha sua cor favorita:</label><br>
+                <input type="color" name="usrColor"><br>
+            
+            <input onclick="foo()" type="button" name="enviar" value="Enviar" id="enviar">
+        </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>
